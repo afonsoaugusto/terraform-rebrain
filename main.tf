@@ -3,6 +3,7 @@ locals {
   tags = {
     Name          = "Demo-Terraform"
     ProvisionedBy = "Terraform"
+    Pipeline      = true
   }
 }
 
